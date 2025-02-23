@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Guide - Your own personal guide</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <title>BIKE GUIDE</title>
+        <img src="./Images/image.png" alt="BIKE GUIDE logo">
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore Bikes</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- Wishlist Button -->
+      <div class="wishlist-container">
+        <button class="btn wishlist-btn" onclick="window.location.href='wishlist.html'">
+            Wishlist
+            <ion-icon name="heart-outline"></ion-icon>
+        </button>
+      </div>
+      <div class="contact-info">
+        <p>+91 869 199 1997</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <article>
+
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+          <h1>F
+            ind the Perfect Bike for You</h1>
+          <p>Explore our collection of cruiser, sports, and naked/hybrid bikes!</p>
+        </div>
+      </section>
+
+      <!-- BIKE TYPES SECTION -->
+<section class="bike-types">
+  <div class="container">
+      <h2>Our Bike Categories</h2>
+
+      <!-- Cruiser/Touring Bikes -->
+      <div class="bike-category">
+        <button class="btn bike-button" onclick="window.location.href='./cruiser-touring.html'">
+          Cruiser/Touring Bikes
+          </button>
+          <figure>
+              <img src="./Images/cruiser.jpg" alt="Cruiser Bike" loading="lazy">
+          </figure>
+          <p>Cruiser bikes are designed for long-distance comfort. They feature relaxed riding positions, sturdy frames, and thick tires, making them ideal for touring and off-road adventures.</p>
+      </div>
+
+      <!-- Sports Racer Bikes -->
+      <div class="bike-category">
+          <button class="btn bike-button" onclick="window.location.href='\sports.html'">
+              Sports Racer Bikes
+          </button>
+          <figure>
+              <img src="./Images/sports.jpg" alt="Sports Bike" loading="lazy">
+          </figure>
+          <p>Sports bikes are built for speed and agility. With lightweight frames, aggressive riding positions, and high-performance engines, they offer the ultimate thrill on paved roads.</p>
+      </div>
+
+      <!-- Naked/Hybrid Bikes -->
+      <div class="bike-category">
+        <button class="btn bike-button" onclick="window.location.href='./naked-hybrid.html'">
+
+              Naked/Hybrid Bikes
+          </button>
+          <figure>
+              <img src="./Images/naked.jpg" alt="Naked Hybrid Bike" loading="lazy">
+          </figure>
+          <p>Naked or hybrid bikes are a mix of sports and touring features. They offer upright seating and are suitable for various terrains, providing both versatility and performance.</p>
+      </div>
+
+  </div>
+</section>
+
+
+    </article>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\Bike-guide\Images\image.png" alt="Bike Guide logo">
+          </a>
+          <p>Explore a diverse range of bikes, including cruisers, sports racers, and hybrid models, to suit your preferences and needs.</p>
+        </div>
+        <ul class="footer-list">
+          <br>
+          <li><p>Company</p></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Plans</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p>Support</p></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Ask a Question</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
